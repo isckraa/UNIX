@@ -1,0 +1,21 @@
+Fedora est développée par le projet Fedora et sponsorisée par l'entreprise Red Hat.
+Sa première version est sortie le 6 novembre 2003.
+Fedora est une distribution à la pointe des nouvelles technologies open-source.
+
+
+Les + : 
+
+Cette distribution permet d'apprendre rapidement de nouvelles technologies qui vont ensuite arriver sur les autres distribution Linux.
+
+Une nouvelle version est disponible tout les 6 mois.
+Utilise yum qui est un très bon gestionnaire de paquets.
+Est fournie avec le dernier Gnome Shell.
+Fedora n'est fournie qu'avec des logiciels libres.
+Beaucoup de logiciels sont disponibles sur Fedora.
+Il existe beaucoup d'environnements de bureau compatibles avec Fedora.
+Les mises à jour de Fedora sont rapides.
+
+Les - :
+
+Une version de Fedora n'est supportée que 13 mois.
+L'accès aux dernières nouveautés provoque le fait que Fedora n'est pas toujours très stable.
