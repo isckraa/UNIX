@@ -1,0 +1,31 @@
+Distribution très connue lancée par Ian Murdock en 1993.
+Une version stable sort tout les deux ans, ce qui veut dire que sa maintenance est assurée mais le délai peut être long.
+
+Les + : 
+
+Debian est disponible gratuitement.
+Utilise dpkg qui est un très bon système de paquets
+Peut être installé par CD, DVD, Blue-Ray, clé USB ou bien par réseau
+Debian est réputé pour l'intégration des paquets dans la machine. De plus tout les paquets de Debian peuvent-être trouvé
+sur un seul site.
+Recommandé pour les développeurs car intègre de base des outils de développement et de langage. Tout les logiciels dans la
+distribution principale sont en code libre, on peut utiliser librement leurs codes pour les incorporer dans de nouveaux logiciels.
+Les mises à jours sont faciles grâce à "apt get update"
+Actuellement, Debian gère de nombreuses architectures de processeur : alpha, amd64, armel, hppa, i386, ia64, mips, mipsel, powerpc, s390 et sparc.
+Le système Debian est très stable et les machines sous Debian peuvent même tenir plus d'une année sans être arrêtées.
+
+Une distribution bien sécurisée :
+    - Debian et la communauté du logiciel libre sont très réactifs pour s'assurer que les correctifs aux problèmes de sécurité intègrent 
+    la distribution rapidement. 
+    - Habituellement, les paquets corrigés sont téléchargés en quelques jours.
+    - La plupart des projets de logiciels libres disposent également de système de revue par des pairs ce qui empêche l'introduction de 
+    possibles problèmes de sécurité dès leurs débuts.
+
+Les - :
+
+Debian peut-être difficile à configurer quand on a peu de connaissances en informatique.
+Il manque également beaucoup de gros logiciels très populaires, comme Photoshop par exemple. Même si des logiciels libres imitant
+leurs fonctions sont disponibles ils ne sont pas non plus équivalent.
+Tout les matériels peuvent ne pas être supportés si le fabricant ne les fournis que les logiciels pilotes pour les plateformes Windows.
+
+
