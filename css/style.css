@@ -5,14 +5,14 @@
 }
 
 h1, h2, h3 {
-    font-family: 'Roboto';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background: url("../assets/images/image1.jfif") no-repeat center center fixed;
     background-size: cover;
 }
@@ -30,10 +30,17 @@ nav {
 }
 
 .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: rgb(226,226,226);
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 22px;
+}
+
+.logo img {
+    max-width: 60px;
 }
 
 .logo h4 {
@@ -51,11 +58,51 @@ nav {
     color: rgb(226,226,226);
 }
 .nav-links li a {
+    position: relative;
     text-decoration: none;
     color: rgb(226,226,226);
     letter-spacing: 1px;
     font-size: 14px;
     font-weight: bold;
+}
+
+.nav-links li a:hover:after {
+    opacity: 1;
+    -webkit-transform: translateX(-50%) translateY(0%);
+    transform: translateX(-50%) translateY(0%);
+}
+
+.nav-links li a::after {
+    content: '';
+    position: absolute;
+    top: 23px;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(25%);
+    transform: translateX(-50%) translateY(25%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7.5px 15px 7.5px;
+    border-color: transparent transparent #c95407 transparent;
+    -webkit-transition: opacity .3s ease, transform .3s ease;
+    -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+    transition: opacity .3s ease, -webkit-transform .3s ease;
+    transition-property: opacity, transform, -webkit-transform;
+    transition-duration: 0.3s, 0.3s, 0.3s;
+    transition-timing-function: ease, ease, ease;
+    transition-delay: 0s, 0s, 0s;
+    transition: opacity .3s ease, transform .3s ease;
+    transition-property: opacity, transform, -webkit-transform;
+    transition-duration: 0.3s, 0.3s, 0.3s;
+    transition-timing-function: ease, ease, ease;
+    transition-delay: 0s, 0s, 0s;
+    transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+    transition-property: opacity, transform, -webkit-transform;
+    transition-duration: 0.3s, 0.3s, 0.3s;
+    transition-timing-function: ease, ease, ease;
+    transition-delay: 0s, 0s, 0s;
 }
 
 .burger {
@@ -130,8 +177,33 @@ nav {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     border-radius: 5px;
     background-color: rgba(242,230,230, 0.9);
+}
+
+.title-home {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.title-home::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 210px;
+    max-width: 90%;
+    height: 2px;
+    background-color: black;
 }
 
 section {
@@ -139,5 +211,105 @@ section {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    background-color: rgb(222,219,219);
+    border-radius: 5px;
+}
+
+/*
+** Ubuntu
+*/
+#ubuntu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#ubuntu img {
+    max-width: 400px;
+    clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+}
+
+#ubuntu .ubuntu-description {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#ubuntu .ubuntu-description p {
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+
+/*
+** Debian
+*/
+#debian {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#debian img {
+    max-width: 400px;
+    clip-path: polygon(11% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+#debian .debian-description {
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+#debian .debian-description p {
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+
+/*
+** Mageia
+*/
+#mageia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#mageia img {
+    max-width: 400px;
+    clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+}
+
+#mageia .mageia-description {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#mageia .mageia-description p {
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+
+/*
+** Kali
+*/
+#kali {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#kali img {
+    max-width: 400px;
+    clip-path: polygon(11% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+#kali .kali-description {
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+#kali .kali-description p {
+    line-height: 25px;
+    letter-spacing: 0.3px;
 }
