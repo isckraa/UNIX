@@ -1,0 +1,17 @@
+Maegia est une distribution éditée par Maegia.org .
+La première version de Maegia est sortie le 1er juin 2011.
+
+Environnements de bureau : Plasma/Gnome/Xfce/LXDE/LXQT
+
+Les + :
+
+Maegia est disponible gratuitement.
+Distribution stable, une version de Maegia ne sort que lorsqu'elle est finalisée.
+Maegia est libre donc son code peut être réutilisé ou modifier librement et gratuitement.
+Distribution française donc toute la documentation et le site support sont disponibles en francais.
+Facilement accessible pour les personnes qui découvrent Linux.
+La configuration de Maegia est simple.
+
+Les - :
+
+Mageia a un peu de retard par rapport aux autres distributions Linux.
