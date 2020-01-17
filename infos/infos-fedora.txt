@@ -6,7 +6,7 @@ Fedora est une distribution à la pointe des nouvelles technologies open-source.
 Les + : 
 
 Cette distribution permet d'apprendre rapidement de nouvelles technologies qui vont ensuite arriver sur les autres distribution Linux.
-
+Fedora est disponible librement et gratuitement.
 Une nouvelle version est disponible tout les 6 mois.
 Utilise yum qui est un très bon gestionnaire de paquets.
 Est fournie avec le dernier Gnome Shell.
