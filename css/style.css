@@ -250,6 +250,10 @@ nav {
     position: relative;
 }
 
+.title-home img {
+    width : 25px;
+}
+
 .title-home::after {
     content: "";
     position: absolute;
@@ -306,6 +310,32 @@ section {
     letter-spacing: 0.3px;
 }
 
+#ubuntu-unity {
+        max-width: 400px;
+        margin-top: 20px;
+        margin-left: 350px;
+}
+
+#ubuntu-unity + p {
+    text-decoration: underline;
+    margin-left: 385px;
+}
+
+.ubuntu-infos p {
+    margin-top : 3px;
+}
+
+.ubuntu-infos ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+ 
+.ubuntu-infos ul li {
+    margin-left: 25px;
+    margin-bottom : 5px;
+}
+ 
 /*
 ** Debian
 */
