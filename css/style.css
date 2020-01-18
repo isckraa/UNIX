@@ -16,12 +16,17 @@ body {
     font-family: "Roboto", sans-serif;
     background: url("../assets/images/image1.jfif") no-repeat center center fixed;
     background-size: cover;
+    position: relative;
 }
 
 /*
 ** Navigation bar
 */
 nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -228,6 +233,8 @@ nav {
     padding-bottom: 1px;
     border-radius: 5px;
     background-color: rgba(242,230,230, 0.9);
+    position: relative;
+    top: 80px;
 }
 
 .title-home {
@@ -277,7 +284,10 @@ section {
 }
 
 #ubuntu img {
-    max-width: 400px;
+    width: 400px;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
     -webkit-clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
 }
@@ -309,13 +319,16 @@ section {
 }
 
 #debian img {
-    max-width: 400px;
-    -webkit-clip-path: polygon(11% 0, 100% 0, 100% 100%, 0% 100%);
-            clip-path: polygon(11% 0, 100% 0, 100% 100%, 0% 100%);
+    width: 400px;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
 }
 
 #debian .debian-description {
-    margin-left: 5px;
+    margin-left: 20px;
     margin-right: 20px;
 }
 
@@ -341,7 +354,10 @@ section {
 }
 
 #mageia img {
-    max-width: 400px;
+    width: 400px;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
     -webkit-clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
 }
@@ -373,17 +389,191 @@ section {
 }
 
 #kali img {
-    max-width: 400px;
-    -webkit-clip-path: polygon(11% 0, 100% 0, 100% 100%, 0% 100%);
-            clip-path: polygon(11% 0, 100% 0, 100% 100%, 0% 100%);
+    width: 400px;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
 }
 
 #kali .kali-description {
-    margin-left: 5px;
+    margin-left: 20px;
     margin-right: 20px;
 }
 
 #kali .kali-description p {
     line-height: 25px;
     letter-spacing: 0.3px;
+}
+
+/*
+** MEDIA SCREEN HOME PAGE
+*/
+
+@media screen and (max-width: 1140px) {
+
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #ubuntu {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #debian {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #mageia {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #kali {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 995px) {
+
+    #ubuntu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        margin: 0;
+    }
+
+    #ubuntu .ubuntu-image {
+        width: 100%;
+    }
+
+    #ubuntu img {
+        width: 100%;
+        max-width: none;
+        height: 150px;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -webkit-clip-path: none;
+                clip-path: none;
+    }
+
+    #ubuntu .ubuntu-description {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    #debian {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    #debian .debian-image {
+        width: 100%;
+    }
+
+    #debian img {
+        width: 100%;
+        max-width: none;
+        height: 150px;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -webkit-clip-path: none;
+                clip-path: none;
+    }
+
+    #debian .debian-description {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    #mageia {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    #mageia .mageia-image {
+        width: 100%;
+    }
+
+    #mageia img {
+        width: 100%;
+        max-width: none;
+        height: 150px;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -webkit-clip-path: none;
+                clip-path: none;
+    }
+
+    #mageia .mageia-description {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    #kali {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    #kali .kali-image {
+        width: 100%;
+    }
+
+    #kali img {
+        width: 100%;
+        max-width: none;
+        height: 150px;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -webkit-clip-path: none;
+                clip-path: none;
+    }
+
+    #kali .kali-description {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
 }
