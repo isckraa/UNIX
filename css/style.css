@@ -64,6 +64,10 @@ nav {
     margin: 0;
 }
 
+.logo-link {
+    text-decoration: none;
+}
+
 .nav-links {
     display: -webkit-box;
     display: -ms-flexbox;
