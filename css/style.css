@@ -19,6 +19,17 @@ body {
     position: relative;
 }
 
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+ 
+li {
+    margin-left: 25px;
+    margin-bottom : 5px;
+}
+
 /*
 ** Navigation bar
 */
