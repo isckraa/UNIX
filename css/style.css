@@ -428,6 +428,17 @@ margin-left: 385px;
     letter-spacing: 0.3px;
 }
 
+#mageia-plasma {
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+#mageia-plasma + p {
+text-decoration: underline;
+margin-left: 385px;
+}
+
 /*
 ** Kali
 */
