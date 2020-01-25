@@ -20,7 +20,7 @@ body {
 }
  
 li {
-    margin-left: 35px;
+    margin-left: 30px;
     margin-bottom : 5px;
 }
 
@@ -507,7 +507,7 @@ margin-left: 385px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: rgb(142, 127, 127);
+    background-color: rgb(181, 162, 162);
     border-radius: 5px;
 }
 
@@ -515,15 +515,26 @@ margin-left: 385px;
 .ubutu-section-points__negative {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .ubutu-section-points__positive {
     max-width: 50%;
 }
 
-.ubutu-section-points__positive h2 {
+.ubuntu-section-points-positive__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin-bottom: 20px;
+}
+
+.ubuntu-section-points-positive__title img {
+    width: 35px;
+}
+
+.ubuntu-section-points-positive__title h2 {
+    margin-left: 20px;
 }
 
 .ubutu-section-points__negative {
@@ -531,8 +542,19 @@ margin-left: 385px;
     max-width: 50%;
 }
 
-.ubutu-section-points__negative h2 {
+.ubuntu-section-points-negative__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin-bottom: 20px;
+}
+
+.ubuntu-section-points-negative__title img {
+    width: 35px;
+}
+
+.ubuntu-section-points-negative__title h2 {
+    margin-left: 20px;
 }
 
 /*
