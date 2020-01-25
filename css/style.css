@@ -19,6 +19,17 @@ body {
     position: relative;
 }
 
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+ 
+li {
+    margin-left: 25px;
+    margin-bottom : 5px;
+}
+
 /*
 ** Navigation bar
 */
@@ -371,6 +382,17 @@ section {
     letter-spacing: 0.3px;
 }
 
+#debian-xfce {
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+#debian-xfce + p {
+text-decoration: underline;
+margin-left: 385px;
+}
+
 /*
 ** Mageia
 */
@@ -404,6 +426,17 @@ section {
 #mageia .mageia-description p {
     line-height: 25px;
     letter-spacing: 0.3px;
+}
+
+#mageia-plasma {
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+#mageia-plasma + p {
+text-decoration: underline;
+margin-left: 385px;
 }
 
 /*
