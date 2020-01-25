@@ -18,15 +18,9 @@ body {
     background-size: cover;
     position: relative;
 }
-
-ul {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-}
  
 li {
-    margin-left: 25px;
+    margin-left: 35px;
     margin-bottom : 5px;
 }
 
@@ -320,32 +314,6 @@ section {
     line-height: 25px;
     letter-spacing: 0.3px;
 }
-
-#ubuntu-unity {
-        max-width: 400px;
-        margin-top: 20px;
-        margin-left: 350px;
-}
-
-#ubuntu-unity + p {
-    text-decoration: underline;
-    margin-left: 385px;
-}
-
-.ubuntu-infos p {
-    margin-top : 3px;
-}
-
-.ubuntu-infos ul {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-}
- 
-.ubuntu-infos ul li {
-    margin-left: 25px;
-    margin-bottom : 5px;
-}
  
 /*
 ** Debian
@@ -472,6 +440,99 @@ margin-left: 385px;
 #kali .kali-description p {
     line-height: 25px;
     letter-spacing: 0.3px;
+}
+
+/*
+** UBUNTU PAGE
+*/
+.ubuntu-title-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubuntu-title-home img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.ubuntu-section__introduction,
+.ubuntu-section__points {
+    background-color: rgb(255, 248, 248);
+    margin: 0 10px;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.ubuntu-section__introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 40px;
+}
+
+.ubuntu-section-introduction__description {
+    width: 60%;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.ubuntu-section-introduction__interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    margin-right: 15px;
+}
+
+.ubuntu-section-introduction__interface .ubuntu-unity {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.ubuntu-section-introduction__interface > p {
+    font-size: 18px;
+}
+
+.ubuntu-section__introduction > p {
+    padding-left: 30px;
+}
+
+.ubuntu-section__points {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ubuntu-section-points__blocks {
+    margin: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(142, 127, 127);
+    border-radius: 5px;
+}
+
+.ubutu-section-points__positive,
+.ubutu-section-points__negative {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+
+.ubutu-section-points__positive {
+    max-width: 50%;
+}
+
+.ubutu-section-points__positive h2 {
+    margin-bottom: 20px;
+}
+
+.ubutu-section-points__negative {
+    margin-right: 20px;
+    max-width: 50%;
+}
+
+.ubutu-section-points__negative h2 {
+    margin-bottom: 20px;
 }
 
 /*
