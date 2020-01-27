@@ -511,14 +511,14 @@ margin-left: 385px;
     border-radius: 5px;
 }
 
-.ubutu-section-points__positive,
-.ubutu-section-points__negative {
+.ubuntu-section-points__positive,
+.ubuntu-section-points__negative {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 20px;
 }
 
-.ubutu-section-points__positive {
+.ubuntu-section-points__positive {
     max-width: 50%;
 }
 
@@ -537,7 +537,7 @@ margin-left: 385px;
     margin-left: 20px;
 }
 
-.ubutu-section-points__negative {
+.ubuntu-section-points__negative {
     margin-right: 20px;
     max-width: 50%;
 }
