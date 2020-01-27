@@ -558,6 +558,157 @@ margin-left: 385px;
 }
 
 /*
+** DEBIAN PAGE
+*/
+.debian-title-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.debian-title-home img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.debian-section__introduction,
+.debian-section__points {
+    background-color: rgb(255, 248, 248);
+    margin: 10px 10px;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+.debian-section__introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 40px;
+}
+
+.debian-section-introduction__description {
+    width: 60%;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.debian-section-introduction__interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    margin-right: 15px;
+}
+
+.debian-section-introduction__interface .debian-xfce {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.debian-section-introduction__interface > p {
+    font-size: 18px;
+}
+
+.debian-section__introduction > p {
+    padding-left: 30px;
+}
+
+.debian-section__security {
+    background-color: rgb(255, 248, 248);
+    margin: 0 10px;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.debian-section-security {
+    margin-right: 20px;
+    max-width: 75%;
+}
+
+.debian-section-security__blocks {
+    margin: 10px 15px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(181, 162, 162);
+    border-radius: 5px;
+}
+
+.debian-section-security__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.debian-section-security__title img {
+    width: 35px;
+}
+
+.debian-section-security__title h2 {
+    margin-left: 20px;
+}
+
+.debian-section__points {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.debian-section-points__blocks {
+    margin: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(181, 162, 162);
+    border-radius: 5px;
+}
+
+.debian-section-points__positive,
+.debian-section-points__negative {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.debian-section-points__positive {
+    max-width: 50%;
+}
+
+.debian-section-points-positive__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.debian-section-points-positive__title img {
+    width: 35px;
+}
+
+.debian-section-points-positive__title h2 {
+    margin-left: 20px;
+}
+
+.debian-section-points__negative {
+    margin-right: 20px;
+    max-width: 50%;
+}
+
+.debian-section-points-negative__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.debian-section-points-negative__title img {
+    width: 35px;
+}
+
+.debian-section-points-negative__title h2 {
+    margin-left: 20px;
+}
+
+/*
 ** MEDIA SCREEN HOME PAGE
 */
 
