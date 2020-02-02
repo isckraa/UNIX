@@ -1030,6 +1030,47 @@ margin-left: 385px;
     .ubuntu-section-points-negative__listing {
         padding-right: 45px;
     }
+
+    /*
+    ** DEBIAN PAGE
+    */
+    .debian-section__introduction {
+        flex-direction: column;
+    }
+    
+    .debian-section-introduction__description {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 15px;
+        padding: 0 15px;
+    }
+
+    .debian-section-introduction__interface {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .debian-section-security__blocks {
+        padding: 15px;
+    }
+
+    .debian-section-points__blocks {
+        flex-direction: column;
+    }
+
+    .debian-section-points__positive {
+        max-width: 100%;
+        margin-right: 20px;
+    }
+
+    .debian-section-points__negative {
+        min-width: 100%;
+    }
+
+    .debian-section-points-negative__listing {
+        padding-right: 45px;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -1037,6 +1078,13 @@ margin-left: 385px;
     ** UBUNTU PAGE
     */
     .ubuntu-section-introduction__interface .ubuntu-unity {
+        max-width: 250px;
+    }
+
+    /*
+    ** DEBIAN PAGE
+    */
+    .debian-section-introduction__interface .debian-unity {
         max-width: 250px;
     }
 }
