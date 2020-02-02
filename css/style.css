@@ -1071,6 +1071,41 @@ margin-left: 385px;
         padding-right: 45px;
     }
 
+    /*
+    ** MAGEIA PAGE
+    */
+    .mageia-section__introduction {
+        flex-direction: column;
+    }
+    
+    .mageia-section-introduction__description {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 15px;
+        padding: 0 15px;
+    }
+
+    .mageia-section-introduction__interface {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .mageia-section-points__blocks {
+        flex-direction: column;
+    }
+
+    .mageia-section-points__positive {
+        max-width: 100%;
+        margin-right: 20px;
+    }
+
+    .mageia-section-points__negative {
+        min-width: 100%;
+    }
+
+    .mageia-section-points-negative__listing {
+        padding-right: 45px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -1085,6 +1120,13 @@ margin-left: 385px;
     ** DEBIAN PAGE
     */
     .debian-section-introduction__interface .debian-unity {
+        max-width: 250px;
+    }
+
+    /*
+    ** MAGEIA PAGE
+    */
+    .mageia-section-introduction__interface .mageia-unity {
         max-width: 250px;
     }
 }
