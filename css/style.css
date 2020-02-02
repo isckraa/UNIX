@@ -400,11 +400,13 @@ margin-left: 385px;
     max-width: 400px;
     margin-top: 20px;
     margin-left: 350px;
+    margin-right : 20px;
 }
 
 #mageia-plasma + p {
-text-decoration: underline;
-margin-left: 385px;
+    text-decoration: underline;
+    margin-left: 385px;
+    margin-right: 20px;
 }
 
 /*
@@ -705,6 +707,122 @@ margin-left: 385px;
 }
 
 .debian-section-points-negative__title h2 {
+    margin-left: 20px;
+}
+
+/*
+** MAGEIA PAGE
+*/
+
+.mageia-title-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mageia-title-home img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.mageia-section__introduction,
+.mageia-section__points {
+    background-color: rgb(255, 248, 248);
+    margin: 10px 10px;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+.mageia-section__introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+
+.mageia-section-introduction__description {
+    width: 60%;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.mageia-section-introduction__interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    margin-right: 15px;
+}
+
+.mageia-section-introduction__interface .mageia-plasma {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.mageia-section-introduction__interface > p {
+    font-size: 18px;
+}
+
+.mageia-section__introduction > p {
+    padding-left: 30px;
+}
+
+.mageia-section__points {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mageia-section-points__blocks {
+    margin: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(181, 162, 162);
+    border-radius: 5px;
+}
+
+.mageia-section-points__positive,
+.mageia-section-points__negative {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.mageia-section-points__positive {
+    max-width: 50%;
+}
+
+.mageia-section-points-positive__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mageia-section-points-positive__title img {
+    width: 35px;
+}
+
+.mageia-section-points-positive__title h2 {
+    margin-left: 20px;
+}
+
+.mageia-section-points__negative {
+    margin-right: 20px;
+    max-width: 50%;
+}
+
+.mageia-section-points-negative__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mageia-section-points-negative__title img {
+    width: 35px;
+}
+
+.mageia-section-points-negative__title h2 {
     margin-left: 20px;
 }
 
