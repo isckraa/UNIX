@@ -995,4 +995,48 @@ margin-left: 385px;
         margin-bottom: 15px;
     }
 
+    /*
+    ** UBUNTU PAGE
+    */
+    .ubuntu-section__introduction {
+        flex-direction: column;
+    }
+    
+    .ubuntu-section-introduction__description {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 15px;
+        padding: 0 15px;
+    }
+
+    .ubuntu-section-introduction__interface {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .ubuntu-section-points__blocks {
+        flex-direction: column;
+    }
+
+    .ubuntu-section-points__positive {
+        max-width: 100%;
+        margin-right: 20px;
+    }
+
+    .ubuntu-section-points__negative {
+        min-width: 100%;
+    }
+
+    .ubuntu-section-points-negative__listing {
+        padding-right: 45px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /*
+    ** UBUNTU PAGE
+    */
+    .ubuntu-section-introduction__interface .ubuntu-unity {
+        max-width: 250px;
+    }
 }
