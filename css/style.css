@@ -827,6 +827,122 @@ margin-left: 385px;
 }
 
 /*
+** KALI PAGE
+*/
+
+.kali-title-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kali-title-home img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.kali-section__introduction,
+.kali-section__points {
+    background-color: rgb(255, 248, 248);
+    margin: 10px 10px;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+.kali-section__introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+
+.kali-section-introduction__description {
+    width: 60%;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.kali-section-introduction__interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    margin-right: 15px;
+}
+
+.kali-section-introduction__interface .kali-gnome {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.kali-section-introduction__interface > p {
+    font-size: 18px;
+}
+
+.kali-section__introduction > p {
+    padding-left: 30px;
+}
+
+.kali-section__points {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kali-section-points__blocks {
+    margin: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(181, 162, 162);
+    border-radius: 5px;
+}
+
+.kali-section-points__positive,
+.kali-section-points__negative {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.kali-section-points__positive {
+    max-width: 50%;
+}
+
+.kali-section-points-positive__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.kali-section-points-positive__title img {
+    width: 35px;
+}
+
+.kali-section-points-positive__title h2 {
+    margin-left: 20px;
+}
+
+.kali-section-points__negative {
+    margin-right: 20px;
+    max-width: 50%;
+}
+
+.kali-section-points-negative__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.kali-section-points-negative__title img {
+    width: 35px;
+}
+
+.kali-section-points-negative__title h2 {
+    margin-left: 20px;
+}
+
+/*
 ** MEDIA SCREEN HOME PAGE
 */
 
@@ -1106,6 +1222,42 @@ margin-left: 385px;
     .mageia-section-points-negative__listing {
         padding-right: 45px;
     }
+
+    /*
+    ** KALI PAGE
+    */
+    .kali-section__introduction {
+        flex-direction: column;
+    }
+    
+    .kali-section-introduction__description {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 15px;
+        padding: 0 15px;
+    }
+
+    .kali-section-introduction__interface {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .kali-section-points__blocks {
+        flex-direction: column;
+    }
+
+    .kali-section-points__positive {
+        max-width: 100%;
+        margin-right: 20px;
+    }
+
+    .kali-section-points__negative {
+        min-width: 100%;
+    }
+
+    .kali-section-points-negative__listing {
+        padding-right: 45px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -1127,6 +1279,13 @@ margin-left: 385px;
     ** MAGEIA PAGE
     */
     .mageia-section-introduction__interface .mageia-unity {
+        max-width: 250px;
+    }
+
+    /*
+    ** KALI PAGE
+    */
+    .kali-section-introduction__interface .kali-unity {
         max-width: 250px;
     }
 }
